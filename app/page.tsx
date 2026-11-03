@@ -162,18 +162,6 @@ export default function Home() {
                   Explore solutions
                 </a>
               </div>
-              <div className="mt-10 grid grid-cols-3 gap-4 border-t border-line pt-6">
-                {[
-                  ["99.9%", "uptime target"],
-                  ["24/7", "monitoring"],
-                  ["5", "core systems"],
-                ].map(([stat, label]) => (
-                  <div key={stat}>
-                    <p className="font-display text-2xl font-semibold text-accent-soft sm:text-3xl">{stat}</p>
-                    <p className="mt-1 text-xs text-muted sm:text-sm">{label}</p>
-                  </div>
-                ))}
-              </div>
             </div>
             <div className="relative mx-auto aspect-[4/3] w-full max-w-xl overflow-hidden rounded-2xl border border-line bg-black shadow-[0_0_60px_-20px_rgba(43,127,255,0.55)]">
               <Image
